@@ -97,7 +97,13 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/my-app-ng18/",
+            "name": "TB",
+            "email": "tfy5566@gmail.com",
+            "repo": "https://github.com/robben5566/my-app-ng18.git"
+          }
         }
       }
     }
